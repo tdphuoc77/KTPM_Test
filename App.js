@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { Button, Image, Platform, StyleSheet, Switch, View } from 'react-native';
+import { Button, Image, Platform, StyleSheet, Switch, Text, View } from 'react-native';
 import bat from "./assets/c02n43451co3o9rj1ee0.png"
 import tat from "./assets/tat.png"
 import Constants from 'expo-constants'
@@ -29,6 +29,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="light" />
       <View style={styles.content}>
+        <Text>Test chơi chơi</Text>
 
         <Image source={isImage} style={styles.image} />
 
